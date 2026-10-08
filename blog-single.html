@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>جزئیات ایده</title>
+    <link rel="icon" type="image/png" href="assets/images/logo/faviconlogo.png" />
+    <link rel="stylesheet" href="assets/css/rt-plugins.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  </head>
+
+  <body class="font-medium text-gray text-lg leading-[27px]">
+    <!-- [if IE]> <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+    </p> <![endif] -->
+
+    <header class="site-header header-normal top-0 bg-white z-[9] rt-sticky">
+      <div class="main-header py-8">
+        <div class="container">
+          <div class="flex items-center justify-between flex-nowrap">
+            <a
+              href="index.html"
+              class="brand-logo  lg:ml-10 md:w-auto max-w-[120px]"
+            >
+              <img src="assets/images/logo/ElifBag.svg" alt="لوگو الیف بگ"
+            /></a>
+            <div class="flex items-center flex-1">
+              <div class="flex-1 main-menu lg:relative xl:ml-[74px] ml-6">
+                <ul>
+                  <li>
+                    <a href="index.html">صفحه‌اصلی</a>
+                  </li>
+                  <li>
+                    <a href="products.html">محصولات</a>
+                  </li>
+                  <li>
+                    <a href="blog.html">ایده‌ها</a>
+                  </li>
+                  <li>
+                    <a href="cart.html">سبدخرید</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">تماس</a>
+                  </li>
+                </ul>
+                <div class="lg:block hidden">
+                  <div class="border border-gray rounded-md h-[46px] modal-search">
+                    <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجوی محصول..." />
+                  </div>
+                </div>
+              </div>
+              
+              <div class="flex-none flex gap-2 ml-[5px] md:gap-[18px]">
+                
+                <button
+                  type="button"
+                  class="md:w-[56px] md:h-[56px] h-10 w-10 rounded bg-[#FDF8FA] flex items-center justify-center modal-trigger"
+                >
+                  <img src="assets/images/svg/search.svg" alt="جستجوی محصول" />
+                </button>
+
+                <div class="block lg:hidden">
+                  <button
+                    type="button"
+                    class="text-3xl md:w-[56px] h-10 w-10 md:h-[56px] rounded bg-[#FDF8FA] flex items-center justify-center menu-click"
+                  >
+                    <iconify-icon
+                      icon="cil:hamburger-menu"
+                      rotate="180deg"
+                    ></iconify-icon>
+                  </button>
+                </div>
+
+                <div class="hidden lg:block">
+                  <a href="cart.html" target="_blank" class="btn btn-primary py-[15px] px-8">
+                    سفارش دوخت
+                  </a>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="lg:hidden block mt-4">
+            <div class="border border-gray rounded-md h-[46px] modal-search">
+              <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجوی محصول..." />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!------------ MobileMenu ----------->
+    <div
+      class="openmobile-menu fixed top-0 left-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999]"
+    >
+      <div class="flex justify-between px-6 flex-none">
+        <a href="index.html" class="brand-logo flex-none mr-10">
+          <img src="assets/images/logo/ElifBag.svg" alt="لوگوی الیف بگ" />
+        </a>
+        <span class="text-3xl text-black cursor-pointer rt-mobile-menu-close">
+          <iconify-icon icon="fe:close"></iconify-icon>
+        </span>
+      </div>
+      <div class="mobile-menu mt-6 flex-1">
+        <ul class="menu-active-classes">
+          <li class=" ">
+            <a href="index.html">صفحه‌اصلی</a>
+          </li>
+          <li>
+            <a href="products.html">محصولات</a>
+          </li>
+          <li>
+            <a href="blog.html">ایده‌های‌الیف‌بگ</a>
+          </li>
+          <li>
+            <a href="cart.html">سبدخرید</a>
+          </li>
+          <li>
+            <a href="about.html">درباره‌ما</a>
+          </li>
+          <li>
+            <a href="contact.html">تماس</a>
+          </li>
+          <li>
+            <a href="404.html">404</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-none pb-4">
+        <div class="text-center text-black font-semibold mb-2">ما را دنبال کنید</div>
+        <ul class="flex space-x-4 justify-center">
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/fb.svg" alt="فیسبوک" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/tw.svg" alt="توییتر" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/pn.svg" alt="پینترست" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/ins.svg" alt="اینستاگرام" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="breadcrumbs section-padding bg-cover bg-center bg-no-repeat"
+      style="background-image: url('assets/images/all-img/BackgroundG.png');"
+    >
+      <div class="container text-center">
+        <h2>جزئیات ایده</h2>
+        <nav>
+          <ol class="flex items-center justify-center space-x-3">
+            <li class="breadcrumb-item"><a href="index.html">صفحه اصلی</a></li>
+            <li class="breadcrumb-item">-</li>
+            <li class="text-primary">جزئیات مطلب</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <div class="nav-tab-wrapper tabs section-padding">
+      <div class="container">
+        <div class="grid grid-cols-12 gap-[30px]">
+          <div class="lg:col-span-8 col-span-12">
+            <div class="bg-[#F8F8F8] rounded-md">
+              <img
+                src="assets/images/all-img/pinterestiBag12.jpg"
+                alt="ایده استایل کیف"
+                class="rounded-t-md mb-10"
+              />
+              <div class="px-10 pb-10">
+                <div class="flex flex-wrap xl:space-x-10 space-x-5 mt-6 mb-6">
+                  <a class="flex items-center space-x-2" href="#">
+                    <img src="assets/images/svg/user3.svg" alt="" />
+                    <span>طراح الیف بگ</span>
+                  </a>
+                  <a class="flex items-center space-x-2" href="#">
+                    <img src="assets/images/svg/calender.svg" alt="" />
+                    <span>۱۳ دی ۱۴۰۳</span>
+                  </a>
+                  <a class="flex items-center space-x-2" href="#">
+                    <img src="assets/images/icon/clock.svg" alt="" />
+                    <span>۵ دقیقه مطالعه</span>
+                  </a>
+                  <a class="flex items-center space-x-2" href="#">
+                    <img src="assets/images/svg/comments.svg" alt="" />
+                    <span>۰۲ دیدگاه</span>
+                  </a>
+                </div>
+                <h3>
+                  ایده‌ای برای یک استایل شیک و متفاوت
+                </h3>
+                <p class="mt-6">
+                  گاهی یک انتخاب ساده می‌تواند ظاهر یک استایل را کاملاً متفاوت کند. در این ایده، ترکیب رنگ‌ها، فرم کیف و جزئیات ظاهری در کنار هم قرار گرفته‌اند تا استایلی شیک، ظریف و الهام‌بخش شکل بگیرد.
+                </p>
+                <blockquote
+                  class="bg-secondary p-8 rounded-md bg-cover bg-no-repeat bg-center my-8 text-white"
+                >
+                  <img src="assets/images/svg/q.svg" alt="" />
+                  <div class="text-xl font-semibold my-6">
+                    «جزئیات کوچک‌اند که یک انتخاب ساده را به چیزی خاص تبدیل می‌کنند.»
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <span class="inline-flex h-[3px] w-12 bg-white"></span>
+                    <span class="text-xl font-semibold"></span>
+                  </div>
+                </blockquote>
+                <p>
+                  در این ایده تلاش کرده‌ایم ترکیبی کاربردی و چشم‌نواز را به شما معرفی کنیم؛ ترکیبی که بتوانید از آن برای ساختن استایل‌های روزمره، دوستانه یا حتی موقعیت‌های خاص الهام بگیرید.
+                </p>
+                <div class="grid md:grid-cols-2 grid-cols-1 gap-[30px] my-8">
+                  <img src="assets/images/all-img/jamedadi1.jpg" alt="ایده استایل" />
+                  <img src="assets/images/all-img/jamedadi1.jpg" alt="ترکیب رنگ" />
+                </div>
+                <h4 class="text-2xl mb-4">
+                  چطور این ایده را در استایل خود اجرا کنیم؟
+                </h4>
+                <p>
+                  انتخاب رنگ‌های هماهنگ، توجه به جزئیات و استفاده درست از اکسسوری‌ها می‌تواند ظاهر نهایی استایل را جذاب‌تر کند. کافی است عناصر اصلی را با توجه به سلیقه و موقعیت خود انتخاب کرده و با چند جزئیات ساده، ترکیب شخصی خودتان را بسازید.
+                </p>
+                <ul class="list-disc marker:text-secondary space-y-4 mt-6">
+                  <li>
+                    انتخاب رنگ‌های هماهنگ و جذاب
+                  </li>
+                  <li>
+                    ترکیب کیف با لباس و اکسسوری‌ها
+                  </li>
+                  <li>
+                    توجه به جزئیات و فرم کلی استایل
+                  </li>
+                  <li>
+                    انتخاب آیتم‌های کاربردی و مناسب برای موقعیت
+                  </li>
+                </ul>
+                <!-- برچسب ها -->
+                
+                <!-- related post -->
+                <div class="grid xl:grid-cols-2 grid-cols-1 gap-[30px] md:mt-14 mt-8">
+                  <a class="flex space-x-4 shadow-box7 rounded p-5 bg-white" href="#">
+                    <div class="flex-none">
+                      <div class="h-20 w-20 rounded">
+                        <img src="assets/images/all-img/model5.jpg" alt="ایده قبلی" class="w-full h-full object-cover rounded" />
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <span class="text-primary text-base mb-1">ایده قبلی</span>
+                      <div class="mb-1 font-semibold text-black">
+                        ایده‌هایی برای ست کردن کیف پارچه‌ای با استایل روزمره
+                      </div>
+                    </div>
+                  </a>
+                  <a class="flex flex-row-reverse shadow-box7 bg-white rounded p-5" href="#">
+                    <div class="flex-none">
+                      <div class="h-20 w-20 rounded ml-4">
+                        <img src="assets/images/all-img/model6.jpg" alt="ایده بعدی" class="w-full h-full object-cover rounded" />
+                      </div>
+                    </div>
+                    <div class="flex-1 text-right">
+                      <span class="text-primary text-base mb-1">ایده بعدی</span>
+                      <div class="mb-1 font-semibold text-black">
+                        چطور یک استایل پینترستی و لطیف بسازیم؟
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- comments start -->
+            <div class="mt-14">
+              <h3 class="mb-6">۲ دیدگاه</h3>
+              <ul class="comments space-y-4">
+                <li class="block border-b border-[#ECECEC] pb-6 mt-6 last:border-0 last:pb-0">
+                  <div class="flex">
+                    <div class="flex-none">
+                      <div class="h-[72px] w-[72px] rounded-full mr-6">
+                        <img src="assets/images/all-img/model_kif1.jpg" alt="سارا محمدی" class="w-full block h-full object-contain rounded-full" />
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="flex flex-wrap justify-between mb-2">
+                        <div>
+                          <span class="text-xl font-semibold text-black block mb-1">سارا محمدی</span>
+                          <span class="block">۱۴ دی ۱۴۰۳</span>
+                        </div>
+                        <a href="#" class="inline-flex px-3 py-1 rounded text-secondary bg-[#E3F9F6] hover:text-white hover:bg-secondary h-[35px] items-center space-x-2 leading-[1]">
+                          <span class="text-xl leading-[1] top-[3px] relative">
+                            <iconify-icon icon="charm:forward" rotate="180deg"></iconify-icon>
+                          </span>
+                          <span class="leading-[1]">پاسخ</span>
+                        </a>
+                      </div>
+                      <p>خیلی از کیفیت و ظاهر کیف راضی بودم. دقیقاً شبیه چیزی بود که در تصاویر دیده بودم.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="block">
+                  <div class="flex">
+                    <div class="flex-none">
+                      <div class="h-[72px] w-[72px] rounded-full mr-6">
+                        <img src="assets/images/all-img/acsesori(2).jpg" alt="نگار حسینی" class="w-full block h-full object-contain rounded-full" />
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="flex flex-wrap justify-between mb-2">
+                        <div>
+                          <span class="text-xl font-semibold text-black block mb-1">نگار حسینی</span>
+                          <span class="block">۱۵ دی ۱۴۰۳</span>
+                        </div>
+                        <a href="#" class="inline-flex px-3 py-1 rounded text-secondary bg-[#E3F9F6] hover:text-white hover:bg-secondary h-[35px] items-center space-x-2 leading-[1]">
+                          <span class="text-xl leading-[1] top-[3px] relative">
+                            <iconify-icon icon="charm:forward" rotate="180deg"></iconify-icon>
+                          </span>
+                          <span class="leading-[1]">پاسخ</span>
+                        </a>
+                      </div>
+                      <p>طراحی خیلی ظریف و زیبایی داره و به‌راحتی با استایل‌های مختلف ست می‌شه.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Reply start -->
+            <div class="mt-14">
+              <h3 class="mb-4">ارسال دیدگاه</h3>
+              <div>
+                آدرس ایمیل شما منتشر نخواهد شد. فیلدهای موردنیاز با * مشخص شده‌اند
+              </div>
+              <div class="md:grid-cols-2 grid grid-cols-1 gap-[30px] mt-6">
+                <div>
+                  <input type="text" class="from-control" placeholder="نام*" />
+                </div>
+                <div>
+                  <input type="email" class="from-control" placeholder="ایمیل*" />
+                </div>
+                <div class="md:col-span-2 col-span-1">
+                  <input type="url" class="from-control" placeholder="آدرس وب‌سایت" />
+                </div>
+                <div class="md:col-span-2 col-span-1">
+                  <textarea class="from-control" placeholder="پیام شما*" rows="5"></textarea>
+                </div>
+              </div>
+              <button class="btn btn-primary mt-[30px]">ارسال دیدگاه</button>
+            </div>
+          </div>
+
+          <!-- سایدبار -->
+          <div class="lg:col-span-4 col-span-12">
+            <div class="sidebarWrapper space-y-[30px]">
+
+              <!-- جستجو -->
+              <div class="wdiget widget_search">
+                <div class="bg-[#F8F8F8] flex rounded-md shadow-e1 items-center py-[4px] pl-3 relative">
+                  <div class="flex-1">
+                    <input type="text" placeholder="جستجوی‌ایده ..." class="border-none focus:ring-0 bg-transparent" />
+                  </div>
+                  <div class="flex-none">
+                    <button class="btn btn-primary">
+                      <img src="assets/images/icon/search.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- دسته‌بندی‌ها -->
+              <div class="wdiget widget_catagory">
+                <h4 class="widget-title">دسته‌بندی ایده‌ها</h4>
+                <ul class="list-item space-y-4">
+                  <li class="block">
+                    <a href="#" class="flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all duration-150">
+                      <span>استایل و ست‌کردن (۱۲)</span>
+                      <span class="text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="block">
+                    <a href="#" class="flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all duration-150">
+                      <span>کیف و اکسسوری (۸)</span>
+                      <span class="text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="block">
+                    <a href="#" class="flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all duration-150">
+                      <span>ایده‌های هدیه (۱۵)</span>
+                      <span class="text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="block">
+                    <a href="#" class="flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all duration-150">
+                      <span>ترند و الهام‌بخش (۱۰)</span>
+                      <span class="text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="block">
+                    <a href="#" class="flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all duration-150">
+                      <span>ایده‌های روزمره (۶)</span>
+                      <span class="text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- مطالب مرتبط -->
+              <div class="wdiget widget-recent-post">
+                <h4 class="widget-title">مطالب مرتبط</h4>
+                <ul class="list">
+                  <li class="flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
+                    <div class="flex-none">
+                      <div class="h-20 w-20 rounded">
+                        <img src="assets/images/all-img/bags1.jpg" alt="ایده‌های جذاب برای ست‌کردن کیف با استایل روزمره" class="w-full h-full object-cover rounded" />
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="mb-1 font-semibold text-black">
+                        ایده‌های جذاب برای ست‌کردن کیف با استایل روزمره
+                      </div>
+                      <a class="text-secondary font-semibold" href="#">ادامه مطلب</a>
+                    </div>
+                  </li>
+                  <li class="flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
+                    <div class="flex-none">
+                      <div class="h-20 w-20 rounded">
+                        <img src="assets/images/all-img/kif(2).jpg" alt="چطور کیف مناسب استایل خود را انتخاب کنیم؟" class="w-full h-full object-cover rounded" />
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="mb-1 font-semibold text-black">
+                        چطور کیف مناسب استایل خود را انتخاب کنیم؟
+                      </div>
+                      <a class="text-secondary font-semibold" href="#">ادامه مطلب</a>
+                    </div>
+                  </li>
+                  <li class="flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
+                    <div class="flex-none">
+                      <div class="h-20 w-20 rounded">
+                        <img src="assets/images/all-img/bags5.jpg" alt="ترکیب رنگ‌های جذاب برای یک استایل خاص و متفاوت" class="w-full h-full object-cover rounded" />
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="mb-1 font-semibold text-black">
+                        ترکیب رنگ‌های جذاب برای یک استایل خاص و متفاوت
+                      </div>
+                      <a class="text-secondary font-semibold" href="#">ادامه مطلب</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- برچسب‌ها -->
+              <div class="wdiget">
+                <h4 class="widget-title">برچسب‌های محبوب</h4>
+                <ul class="flex flex-wrap">
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">کیف</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">استایل</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">اکسسوری</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">ایده استایل</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">ترند</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">الیف بگ</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- گالری تصاویر -->
+              <div class="wdiget">
+                <h4 class="widget-title">گالری تصاویر</h4>
+                <div class="grid grid-cols-3 gap-4">
+                  <div>
+                    <a href="#" class="group relative block h-20 w-full rounded">
+                      <img src="assets/images/all-img/bags7.jpg" alt="" class="block h-full w-full rounded object-cover" />
+                      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
+                        <span class="scale-0 transition-all duration-150 group-hover:scale-100">
+                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="group relative block h-20 w-full rounded">
+                      <img src="assets/images/all-img/bagsInT.jpg" alt="" class="block h-full w-full rounded object-cover" />
+                      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
+                        <span class="scale-0 transition-all duration-150 group-hover:scale-100">
+                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="group relative block h-20 w-full rounded">
+                      <img src="assets/images/all-img/koolePoshti.jpg" alt="" class="block h-full w-full rounded object-cover" />
+                      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
+                        <span class="scale-0 transition-all duration-150 group-hover:scale-100">
+                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="group relative block h-20 w-full rounded">
+                      <img src="assets/images/all-img/model_kif2.jpg" alt="" class="block h-full w-full rounded object-cover" />
+                      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
+                        <span class="scale-0 transition-all duration-150 group-hover:scale-100">
+                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="group relative block h-20 w-full rounded">
+                      <img src="assets/images/all-img/PinkBag.jpg" alt="" class="block h-full w-full rounded object-cover" />
+                      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
+                        <span class="scale-0 transition-all duration-150 group-hover:scale-100">
+                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="group relative block h-20 w-full rounded">
+                      <img src="assets/images/all-img/model32.jpg" alt="" class="block h-full w-full rounded object-cover" />
+                      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
+                        <span class="scale-0 transition-all duration-150 group-hover:scale-100">
+                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark-pink bg-cover bg-center bg-no-repeat">
+      <div class="section-padding container text-white">
+        <div class="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
+          <div class="single-footer">
+            <div class="lg:max-w-[270px]">
+              <a href="#" class="mb-10 block">
+                <img src="assets/images/logo/text.svg" alt="لوگوی الیف بگ" class="w-[170px] h-auto"/>
+              </a>
+              <p>برای سفارش این وب‌سایت و یا طراحی یک وب‌سایت اختصاصی و متناسب با نیاز خودتان، با ما تماس بگیرید.</p>
+              <ul class="flex space-x-4 pt-8">
+                <li>
+                  <a href="#" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="bxl:linkedin"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://t.me/ElifAlgo" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-brands:telegram"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:09331535511" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-solid:phone"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:MHoseini.Developer@gmail.com" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-solid:envelope"></iconify-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="single-footer">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+              <div class="flex-1 lg:flex-none md:ml-[80px]">
+                <h4 class="mb-8 text-2xl font-bold text-white">دسترسی سریع</h4>
+                <ul class="list-item space-y-5">
+                  <li><a href="index.html">صفحه اصلی</a></li>
+                  <li><a href="products.html">محصولات</a></li>
+                  <li><a href="blog.html">ایده‌ها</a></li>
+                  <li><a href="cart.html">سبدخرید</a></li>
+                  <li><a href="about.html">درباره‌ما</a></li>
+                </ul>
+              </div>
+              <div class="flex-1 lg:flex-none">
+                <h4 class="mb-8 text-2xl font-bold text-white">اطلاعات تماس</h4>
+                <ul class="list-item space-y-5">
+                  <li>
+                    <a href="https://eitaa.com/ElifLife" target="_blank">آیدی ایتا: 
+                      <br>
+                      @ElifLife</a>
+                  </li>
+                  <li>
+                    <a>کانال ایتا:</a> <br>
+                    <a href="https://eitaa.com/ElifLife" target="_blank">@ElifLife</a>
+                  </li>
+                  <li>
+                    طراحی‌اختصاصی‌وب‌سایت: 
+                    <br>
+                    <a href="https://eitaa.com/ElifLife" target="_blank">@ElifLife</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>          
+          <div class="single-footer">
+            <h4 class="mb-8 text-2xl font-bold text-white">خبرنامه</h4>
+            <div class="mb-8">
+              برای دریافت آخرین محصولات، تخفیف‌ها و تازه‌های الیف بگ،
+              <span class="text-primary underline">ایمیل</span>
+              خود را وارد کنید.
+            </div>
+            <div class="mb-4 flex items-center rounded-md bg-white py-[10px] pl-[10px] pl-6 shadow-e1 fd">
+              <div class="flex-1">
+                <input type="text" placeholder="ایمیل خود را وارد کنید ..." class="border-none focus:ring-0" />
+              </div>
+              <div class="flex-none">
+                <span><img src="assets/images/icon/mail.svg" alt="ایمیل" /></span>
+              </div>
+            </div>
+            <button class="btn btn-primary block w-full text-center">اشتراک</button>
+          </div>
+        </div>
+      </div>
+      <div class="container border-t border-white border-opacity-[0.1] py-8 text-center text-base">
+        &copy; تمامی حقوق محفوظ است ۱۴۰۴ | الیف بگ
+      </div>
+    </footer>
+
+    <div class="rt-mobile-menu-overlay"></div>
+    <!-- scripts -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/rt-plugins.js"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>

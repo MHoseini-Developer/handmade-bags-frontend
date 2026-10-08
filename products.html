@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>محصولات الیف بگ</title>
+    <link rel="icon" type="image/png" href="  " />
+    <link rel="stylesheet" href="assets/css/rt-plugins.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  </head>
+
+  <body class="font-medium text-gray text-lg leading-[27px]">
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- -------------header----------- -->
+    <header class="site-header header-normal top-0 bg-white z-[9] rt-sticky">
+      <div class="main-header py-8">
+        <div class="container">
+          <div class="flex items-center justify-between flex-nowrap">
+            <a
+              href="index.html"
+              class="brand-logo  lg:ml-10 md:w-auto max-w-[120px]"
+            >
+              <img src="assets/images/logo/ElifBag.svg" alt="لوگو الیف بگ"
+            /></a>
+            <div class="flex items-center flex-1">
+              <div class="flex-1 main-menu lg:relative xl:ml-[74px] ml-6">
+                <ul>
+                  <li>
+                    <a href="index.html">صفحه‌اصلی</a>
+                  </li>
+                  <li>
+                    <a href="products.html">محصولات</a>
+                  </li>
+                  <li>
+                    <a href="blog.html">ایده‌ها</a>
+                  </li>
+                  <li>
+                    <a href="cart.html">سبدخرید</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">تماس</a>
+                  </li>
+                </ul>
+                <div class="lg:block hidden">
+                  <div class="border border-gray rounded-md h-[46px] modal-search">
+                    <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجوی محصول..." />
+                  </div>
+                </div>
+              </div>
+              
+              <div class="flex-none flex gap-2 ml-[5px] md:gap-[18px]">
+                
+                <button
+                  type="button"
+                  class="md:w-[56px] md:h-[56px] h-10 w-10 rounded bg-[#FDF8FA] flex items-center justify-center modal-trigger"
+                >
+                  <img src="assets/images/svg/search.svg" alt="جستجوی محصول" />
+                </button>
+
+                <div class="block lg:hidden">
+                  <button
+                    type="button"
+                    class="text-3xl md:w-[56px] h-10 w-10 md:h-[56px] rounded bg-[#FDF8FA] flex items-center justify-center menu-click"
+                  >
+                    <iconify-icon
+                      icon="cil:hamburger-menu"
+                      rotate="180deg"
+                    ></iconify-icon>
+                  </button>
+                </div>
+
+                <div class="hidden lg:block">
+                  <a href="cart.html" target="_blank" class="btn btn-primary py-[15px] px-8">
+                    سفارش دوخت
+                  </a>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="lg:hidden block mt-4">
+            <div class="border border-gray rounded-md h-[46px] modal-search">
+              <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجوی محصول..." />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- -------------header----------- -->
+
+    <!-- ----------mobile-menu---------- -->
+    <div
+      class="openmobile-menu fixed top-0 left-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999]"
+    >
+      <div class="flex justify-between px-6 flex-none">
+        <a href="index.html" class="brand-logo flex-none mr-10">
+          <img src="assets/images/logo/ElifBag.svg" alt="لوگوی الیف بگ" />
+        </a>
+        <span class="text-3xl text-black cursor-pointer rt-mobile-menu-close">
+          <iconify-icon icon="fe:close"></iconify-icon>
+        </span>
+      </div>
+      <div class="mobile-menu mt-6 flex-1">
+        <ul class="menu-active-classes">
+          <li class=" ">
+            <a href="index.html">صفحه‌اصلی</a>
+          </li>
+          <li>
+            <a href="products.html">محصولات</a>
+          </li>
+          <li>
+            <a href="blog.html">ایده‌های‌الیف‌بگ</a>
+          </li>
+          <li>
+            <a href="cart.html">سبدخرید</a>
+          </li>
+          <li>
+            <a href="about.html">درباره‌ما</a>
+          </li>
+          <li>
+            <a href="contact.html">تماس</a>
+          </li>
+          <li>
+            <a href="404.html">404</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-none pb-4">
+        <div class="text-center text-black font-semibold mb-2">ما را دنبال کنید</div>
+        <ul class="flex space-x-4 justify-center">
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/fb.svg" alt="فیسبوک" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/tw.svg" alt="توییتر" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/pn.svg" alt="پینترست" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/ins.svg" alt="اینستاگرام" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- ----------mobile-menu----------- -->
+
+
+
+    <!-- ---------- description section ---------- -->
+    <div class="about-area section-padding-top pb-12 bg-[url('../images/banner/3.png')]">
+      <div class="container">
+        <div class="grid grid-cols-12 gap-10">
+          <div class="xl:col-span-7 lg:col-span-6 col-span-12">
+            <img src="assets/images/all-img/bags7.jpg" alt="محصولات دست‌دوز الیف بگ" class="img-project rounded-lg"/>
+          </div>
+          <div class="xl:col-span-5 lg:col-span-6 col-span-12">
+            <div class="mini-title">محصولات ما</div>
+            <h4 class="column-title">
+              دنیایی از کیف‌های خاص، نرم و لطیف، دوست‌داشتنی
+              <span class="shape-bg">و دستدوز</span>
+
+            </h4>
+            <div class="mb-8">
+              مجموعه‌ای از کیف‌ها و محصولات پارچه‌ای دست‌دوز، با طراحی‌های متفاوت، انتخاب دقیق پارچه و توجه به جزئیات. هر محصول با ترکیبی از زیبایی و کاربرد طراحی شده تا انتخابی متفاوت و متناسب با سلیقه شما باشد.
+            </div>
+            <div>
+              از میان مدل‌های مختلف، محصول مورد علاقه خود را پیدا کنید و دنیای پینترستی را به استایل خود اضافه کنید.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+
+    <!-- ----------Project-list----------- -->
+    <div class="nav-tab-wrapper tabs section-padding">
+      <div class="container">
+        <div class="flex items-center mb-14">
+          <div class="flex-0">
+            <div class="w-full max-w-[272px]">
+              <select>
+                <option data-display="مرتب‌سازی: محبوبیت">مرتب‌سازی: محبوبیت</option>
+                <option value="1">مرتب‌سازی: جدیدترین</option>
+                <option value="2">مرتب‌سازی: قیمت</option>
+                <option value="4">مرتب‌سازی: محبوب‌ترین</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-----------  Products --------------> 
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
+          <!-- محصول ۱ - کیف دستی -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/jamedadi1.jpg" alt="کیف دستی پارچه‌ای" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  کیف دستی پارچه‌ای
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:sparkles"></iconify-icon>
+                  </span>
+                  <span>طراحی خاص و دست‌دوز</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:sun"></iconify-icon>
+                  </span>
+                  <span>مناسب استفاده روزمره</span>
+                </li>
+              </ul>
+              <a href="product-single.html" class="btn px-8 py-[11px] bg-lightbrown text-white hover:bg-primary">مشاهده‌محصول</a>
+            </div>
+          </div>
+
+          <!-- محصول ۲ - کوله‌پشتی -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/model3.jpg" alt="کوله‌پشتی پارچه‌ای" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  کوله‌پشتی پارچه‌ای
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:bolt"></iconify-icon>
+                  </span>
+                  <span>سبک و کاربردی</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:academic-cap"></iconify-icon>
+                  </span>
+                  <span>مناسب دانشگاه و روزمره</span>
+                </li>
+              </ul>
+              <a href="product-single.html" class="btn px-8 py-[11px] bg-lightbrown text-white hover:bg-primary">مشاهده‌محصول</a>
+            </div>
+          </div>
+
+          <!-- محصول ۳ - کیف دوشی -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/model_kif3.jpg" alt="کیف دوشی دست‌دوز" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  کیف دوشی دست‌دوز
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:sparkles"></iconify-icon>
+                  </span>
+                  <span>طراحی متفاوت و کاربردی</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:sun"></iconify-icon>
+                  </span>
+                  <span>مناسب استایل روزمره</span>
+                </li>
+              </ul>
+              <a href="product-single.html" class="btn px-8 py-[11px] bg-lightbrown text-white hover:bg-primary">مشاهده‌محصول</a>
+            </div>
+          </div>
+
+          <!-- محصول ۴ - جامدادی -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/bags2.jpg" alt="جامدادی پارچه‌ای" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  جامدادی پارچه‌ای
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:sparkles"></iconify-icon>
+                  </span>
+                  <span>طراحی‌های متنوع و دوست‌داشتنی</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:academic-cap"></iconify-icon>
+                  </span>
+                  <span>مناسب مدرسه و دانشگاه</span>
+                </li>
+              </ul>
+              <a href="product-single.html" class="btn px-8 py-[11px] bg-lightbrown text-white hover:bg-primary">مشاهده‌محصول</a>
+            </div>
+          </div>
+
+          <!-- محصول ۵ - کیف کوچک -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/bags3.jpg" alt="کیف کوچک پارچه‌ای" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  کیف کوچک پارچه‌ای
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:archive-box"></iconify-icon>
+                  </span>
+                  <span>جمع‌وجور و کاربردی</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:heart"></iconify-icon>
+                  </span>
+                  <span>مناسب لوازم شخصی</span>
+                </li>
+              </ul>
+              <a href="product-single.html" class="btn px-8 py-[11px] bg-lightbrown text-white hover:bg-primary">مشاهده‌محصول</a>
+            </div>
+          </div>
+
+          <!-- محصول ۶ - کیف طرح‌دار -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/bags4.jpg" alt="کیف پارچه‌ای طرح‌دار" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  کیف پارچه‌ای طرح‌دار
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:sparkles"></iconify-icon>
+                  </span>
+                  <span>طرح‌های خاص و پینترستی</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:sun"></iconify-icon>
+                  </span>
+                  <span>مناسب استایل‌های متفاوت</span>
+                </li>
+              </ul>
+              <a href="product-single.html" class="btn px-8 py-[11px] bg-lightbrown text-white hover:bg-primary">مشاهده‌محصول</a>
+            </div>
+          </div>
+
+          <!-- محصول ۷ - کیف سفارشی -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/bags5.jpg" alt="سفارش کیف اختصاصی" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  سفارش کیف اختصاصی
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:swatch"></iconify-icon>
+                  </span>
+                  <span>انتخاب طرح و رنگ</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:heart"></iconify-icon>
+                  </span>
+                  <span>طراحی متناسب با سلیقه شما</span>
+                </li>
+              </ul>
+              <a href="product-single.html" class="btn px-8 py-[11px] bg-lightbrown text-white hover:bg-primary">مشاهده‌محصول</a>
+            </div>
+          </div>
+
+          <!-- محصول ۸ - اکسسوری -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/model1.jpg" alt="اکسسوری‌های دست‌دوز" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  اکسسوری‌های دست‌دوز
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:sparkles"></iconify-icon>
+                  </span>
+                  <span>ظریف و کاربردی</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:gift"></iconify-icon>
+                  </span>
+                  <span>مناسب هدیه و استفاده شخصی</span>
+                </li>
+              </ul>
+              <a href="product-single.html" class="btn px-8 py-[11px] bg-lightbrown text-white hover:bg-primary">مشاهده‌محصول</a>
+            </div>
+          </div>
+
+          <!-- محصول ۹ - محصولات جدید -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/model5.jpg" alt="تازه‌های الیف بگ" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  تازه‌های الیف بگ
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:sparkles"></iconify-icon>
+                  </span>
+                  <span>جدیدترین طراحی‌ها</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:star"></iconify-icon>
+                  </span>
+                  <span>مدل‌های خاص و محدود</span>
+                </li>
+              </ul>
+              <a href="product-single.html" class="btn px-8 py-[11px] bg-lightbrown text-white hover:bg-primary">مشاهده‌محصول</a>
+            </div>
+          </div>
+        </div>
+        <!-- ------------pagination------------ -->
+        <div class="pagination mt-14">
+          <ul class="flex w-full justify-center items-center gap-3 max-[345px]:gap-1 px-2 max-[345px]:px-1">
+            <li class="flex-shrink-0">
+              <a
+                href="#"
+                class="flex w-12 h-12 max-[345px]:w-10 max-[345px]:h-10 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+              >
+                <iconify-icon
+                  icon="heroicons:chevron-double-right-20-solid"
+                  class="text-2xl max-[345px]:text-xl"
+                ></iconify-icon>
+              </a>
+            </li>
+
+            <li class="flex-shrink-0">
+              <a
+                href="#"
+                class="flex w-12 h-12 max-[345px]:w-10 max-[345px]:h-10 flex-col items-center justify-center bg-primary text-white rounded font-semibold"
+              >
+                ۱
+              </a>
+            </li>
+
+            <li class="flex-shrink-0">
+              <a
+                href="#"
+                class="flex w-12 h-12 max-[345px]:w-10 max-[345px]:h-10 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+              >
+                ۲
+              </a>
+            </li>
+
+            <li class="flex-shrink-0">
+              <a
+                href="#"
+                class="flex w-12 h-12 max-[345px]:w-10 max-[345px]:h-10 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+              >
+                ۳
+              </a>
+            </li>
+
+            <li class="flex-shrink-0">
+              <a
+                href="#"
+                class="flex w-12 h-12 max-[345px]:w-10 max-[345px]:h-10 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+              >
+                ۴
+              </a>
+            </li>
+
+            <li class="flex-shrink-0">
+              <a
+                href="#"
+                class="flex w-12 h-12 max-[345px]:w-10 max-[345px]:h-10 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+              >
+                <iconify-icon
+                  icon="heroicons:chevron-double-left-20-solid"
+                  class="text-2xl max-[345px]:text-xl"
+                ></iconify-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- ------------pagination------------ -->
+      </div>
+    </div>
+    <!-- ----------Project-list----------- -->
+
+    <!-- --------------footer-------------- -->
+    <footer class="bg-dark-pink bg-cover bg-center bg-no-repeat">
+      <div class="section-padding container text-white">
+        <div class="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
+          <div class="single-footer">
+            <div class="lg:max-w-[270px]">
+              <a href="#" class="mb-10 block">
+                <img src="assets/images/logo/text.svg" alt="لوگوی الیف بگ" class="w-[170px] h-auto"/>
+              </a>
+              <p>برای سفارش این وب‌سایت و یا طراحی یک وب‌سایت اختصاصی و متناسب با نیاز خودتان، با ما تماس بگیرید.</p>
+              <ul class="flex space-x-4 pt-8">
+                <li>
+                  <a href="#" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="bxl:linkedin"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://t.me/ElifAlgo" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-brands:telegram"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:09331535511" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-solid:phone"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:MHoseini.Developer@gmail.com" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-solid:envelope"></iconify-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="single-footer">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+              <div class="flex-1 lg:flex-none md:ml-[80px]">
+                <h4 class="mb-8 text-2xl font-bold text-white">دسترسی سریع</h4>
+                <ul class="list-item space-y-5">
+                  <li><a href="index.html">صفحه اصلی</a></li>
+                  <li><a href="products.html">محصولات</a></li>
+                  <li><a href="blog.html">ایده‌ها</a></li>
+                  <li><a href="cart.html">سبدخرید</a></li>
+                  <li><a href="about.html">درباره‌ما</a></li>
+                </ul>
+              </div>
+              <div class="flex-1 lg:flex-none">
+                <h4 class="mb-8 text-2xl font-bold text-white">اطلاعات تماس</h4>
+                <ul class="list-item space-y-5">
+                  <li>
+                    <a href="https://eitaa.com/ElifLife" target="_blank">آیدی ایتا: 
+                      <br>
+                      @ElifLife</a>
+                  </li>
+                  <li>
+                    <a>کانال ایتا:</a> <br>
+                    <a href="https://eitaa.com/ElifLife" target="_blank">@ElifLife</a>
+                  </li>
+                  <li>
+                    طراحی‌اختصاصی‌وب‌سایت: 
+                    <br>
+                    <a href="https://eitaa.com/ElifLife" target="_blank">@ElifLife</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>          
+          <div class="single-footer">
+            <h4 class="mb-8 text-2xl font-bold text-white">خبرنامه</h4>
+            <div class="mb-8">
+              برای دریافت آخرین محصولات، تخفیف‌ها و تازه‌های الیف بگ،
+              <span class="text-primary underline">ایمیل</span>
+              خود را وارد کنید.
+            </div>
+            <div class="mb-4 flex items-center rounded-md bg-white py-[10px] pl-[10px] pl-6 shadow-e1 fd">
+              <div class="flex-1">
+                <input type="text" placeholder="ایمیل خود را وارد کنید ..." class="border-none focus:ring-0" />
+              </div>
+              <div class="flex-none">
+                <span><img src="assets/images/icon/mail.svg" alt="ایمیل" /></span>
+              </div>
+            </div>
+            <button class="btn btn-primary block w-full text-center">اشتراک</button>
+          </div>
+        </div>
+      </div>
+      <div class="container border-t border-white border-opacity-[0.1] py-8 text-center text-base">
+        &copy; تمامی حقوق محفوظ است ۱۴۰۴ | الیف بگ
+      </div>
+    </footer>
+    <!-- --------------footer-------------- -->
+
+    <div class="rt-mobile-menu-overlay"></div>
+    <!---------------- scripts ---------------->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/rt-plugins.js"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
+         

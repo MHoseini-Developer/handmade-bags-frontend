@@ -1,0 +1,828 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="سبد خرید الیف بگ" />
+    <title>سبد خرید | الیف بگ</title>
+
+    <link rel="icon" type="image/png" href="assets/images/logo/faviconlogo.png" />
+    <link rel="stylesheet" href="assets/css/rt-plugins.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  </head>
+
+  <body class="font-medium text-gray text-lg leading-[27px]">
+
+    <!-- ==================== Header ==================== -->
+    <header class="site-header header-normal top-0 bg-white z-[9] rt-sticky">
+      <div class="main-header py-8">
+        <div class="container">
+          <div class="flex items-center justify-between flex-nowrap">
+            <a
+              href="index.html"
+              class="brand-logo  lg:ml-10 md:w-auto max-w-[120px]"
+            >
+              <img src="assets/images/logo/ElifBag.svg" alt="لوگو الیف بگ"
+            /></a>
+            <div class="flex items-center flex-1">
+              <div class="flex-1 main-menu lg:relative xl:ml-[74px] ml-6">
+                <ul>
+                  <li>
+                    <a href="index.html">صفحه‌اصلی</a>
+                  </li>
+                  <li>
+                    <a href="products.html">محصولات</a>
+                  </li>
+                  <li>
+                    <a href="blog.html">ایده‌ها</a>
+                  </li>
+                  <li>
+                    <a href="cart.html">سبدخرید</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">تماس</a>
+                  </li>
+                </ul>
+                <div class="lg:block hidden">
+                  <div class="border border-gray rounded-md h-[46px] modal-search">
+                    <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجوی محصول..." />
+                  </div>
+                </div>
+              </div>
+              
+              <div class="flex-none flex gap-2 ml-[5px] md:gap-[18px]">
+                
+                <button
+                  type="button"
+                  class="md:w-[56px] md:h-[56px] h-10 w-10 rounded bg-[#FDF8FA] flex items-center justify-center modal-trigger"
+                >
+                  <img src="assets/images/svg/search.svg" alt="جستجوی محصول" />
+                </button>
+
+                <div class="block lg:hidden">
+                  <button
+                    type="button"
+                    class="text-3xl md:w-[56px] h-10 w-10 md:h-[56px] rounded bg-[#FDF8FA] flex items-center justify-center menu-click"
+                  >
+                    <iconify-icon
+                      icon="cil:hamburger-menu"
+                      rotate="180deg"
+                    ></iconify-icon>
+                  </button>
+                </div>
+
+                <div class="hidden lg:block">
+                  <a href="cart.html" target="_blank" class="btn btn-primary py-[15px] px-8">
+                    سفارش دوخت
+                  </a>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="lg:hidden block mt-4">
+            <div class="border border-gray rounded-md h-[46px] modal-search">
+              <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجوی محصول..." />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- ==================== Mobile Menu ==================== -->
+    <div
+      class="openmobile-menu fixed top-0 left-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999]"
+    >
+      <div class="flex justify-between px-6 flex-none">
+        <a href="index.html" class="brand-logo flex-none mr-10">
+          <img src="assets/images/logo/ElifBag.svg" alt="لوگوی الیف بگ" />
+        </a>
+        <span class="text-3xl text-black cursor-pointer rt-mobile-menu-close">
+          <iconify-icon icon="fe:close"></iconify-icon>
+        </span>
+      </div>
+      <div class="mobile-menu mt-6 flex-1">
+        <ul class="menu-active-classes">
+          <li class=" ">
+            <a href="index.html">صفحه‌اصلی</a>
+          </li>
+          <li>
+            <a href="products.html">محصولات</a>
+          </li>
+          <li>
+            <a href="blog.html">ایده‌های‌الیف‌بگ</a>
+          </li>
+          <li>
+            <a href="cart.html">سبدخرید</a>
+          </li>
+          <li>
+            <a href="about.html">درباره‌ما</a>
+          </li>
+          <li>
+            <a href="contact.html">تماس</a>
+          </li>
+          <li>
+            <a href="404.html">404</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-none pb-4">
+        <div class="text-center text-black font-semibold mb-2">ما را دنبال کنید</div>
+        <ul class="flex space-x-4 justify-center">
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/fb.svg" alt="فیسبوک" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/tw.svg" alt="توییتر" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/pn.svg" alt="پینترست" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/ins.svg" alt="اینستاگرام" /></a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- ==================== Breadcrumb ==================== -->
+    <div
+      class="breadcrumbs section-padding bg-[url('../images/all-img/bred.png')] bg-cover bg-center bg-no-repeat"
+    >
+      <div class="container text-center">
+
+        <h2>سبد خرید</h2>
+
+        <nav>
+          <ol class="flex items-center justify-center space-x-3">
+
+            <li class="breadcrumb-item">
+              <a href="index.html">صفحه اصلی</a>
+            </li>
+
+            <li class="breadcrumb-item">-</li>
+
+            <li class="text-primary">
+              سبد خرید
+            </li>
+
+          </ol>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- ==================== Cart ==================== -->
+    <section class="section-padding">
+
+      <div class="container">
+
+        <!-- Page Title -->
+        <div class="text-center mb-12">
+
+          <h2 class="mb-3">
+            سبد خرید 
+            <span class="shape-bg">شما</span>
+          </h2>
+
+          <p>
+            محصولاتی که برای خرید انتخاب کرده‌اید
+          </p>
+
+        </div>
+
+
+        <div class="grid lg:grid-cols-12 gap-[30px]">
+
+          <!-- ==================== Cart Items ==================== -->
+          <div class="lg:col-span-8">
+
+            <div class="bg-[#F8F8F8] rounded-md p-6 md:p-8">
+
+              <!-- Cart Header -->
+              <div class="hidden md:grid grid-cols-12 gap-4 pb-5 border-b border-[#E5E5E5] text-black font-semibold">
+
+                <div class="col-span-5">
+                  محصول
+                </div>
+
+                <div class="col-span-2 text-center">
+                  قیمت
+                </div>
+
+                <div class="col-span-3 text-center">
+                  تعداد
+                </div>
+
+                <div class="col-span-2 text-center">
+                  جمع
+                </div>
+
+              </div>
+
+
+              <!-- ==================== Product 1 ==================== -->
+              <div
+                class="cart-item grid md:grid-cols-12 gap-5 items-center py-6 border-b border-[#E5E5E5]"
+                data-price="1850000"
+              >
+
+                <!-- Product -->
+                <div class="md:col-span-5 flex items-center gap-4">
+
+                  <div class="w-24 h-24 flex-none rounded-md overflow-hidden">
+
+                    <img
+                      src="assets/images/all-img/koole1.jpg"
+                      alt="کیف پینترستی"
+                      class="w-full h-full object-cover"
+                    />
+
+                  </div>
+
+                  <div>
+
+                    <h4 class="text-lg font-semibold text-black mb-1">
+                      کوله‌پشتی پینترستی
+                    </h4>
+
+                    <span class="text-sm">
+                      کد محصول: k-200
+                    </span>
+
+                  </div>
+
+                </div>
+
+
+                <!-- Price -->
+                <div class="md:col-span-2 text-center">
+
+                  <span class="md:hidden block text-sm mb-1">
+                    قیمت:
+                  </span>
+
+                  <span class="product-price">
+                    ۱,۸۵۰,۰۰۰
+                  </span>
+
+                  <span class="text-sm">
+                    تومان
+                  </span>
+
+                </div>
+
+
+                <!-- Quantity -->
+                <div class="md:col-span-3">
+
+                  <div class="flex justify-center">
+
+                    <div class="flex items-center border border-[#D9D9D9] bg-white rounded-md overflow-hidden">
+
+                      <button
+                        type="button"
+                        class="quantity-minus w-10 h-10 flex items-center justify-center text-xl text-black hover:bg-primary hover:text-white transition"
+                      >
+                        −
+                      </button>
+
+                      <span
+                        class="quantity w-12 h-10 flex items-center justify-center border-x border-[#D9D9D9] text-black"
+                      >
+                        1
+                      </span>
+
+                      <button
+                        type="button"
+                        class="quantity-plus w-10 h-10 flex items-center justify-center text-xl text-black hover:bg-primary hover:text-white transition"
+                      >
+                        +
+                      </button>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <!-- Total -->
+                <div class="md:col-span-2 text-center">
+
+                  <span class="md:hidden block text-sm mb-1">
+                    جمع:
+                  </span>
+
+                  <span class="item-total font-semibold text-black">
+                    ۱,۸۵۰,۰۰۰
+                  </span>
+
+                  <span class="text-sm">
+                    تومان
+                  </span>
+
+                </div>
+
+
+                <!-- Remove -->
+                <button
+                  type="button"
+                  class="remove-item absolute hidden"
+                  aria-label="حذف محصول"
+                >
+                </button>
+
+              </div>
+
+
+              <!-- ==================== Product 2 ==================== -->
+              <div
+                class="cart-item grid md:grid-cols-12 gap-5 items-center py-6 border-b border-[#E5E5E5]"
+                data-price="2490000"
+              >
+
+                <!-- Product -->
+                <div class="md:col-span-5 flex items-center gap-4">
+
+                  <div class="w-24 h-24 flex-none rounded-md overflow-hidden">
+
+                    <img
+                      src="assets/images/all-img/bags5.jpg"
+                      alt="کیف دست‌دوز"
+                      class="w-full h-full object-cover"
+                    />
+
+                  </div>
+
+                  <div>
+
+                    <h4 class="text-lg font-semibold text-black mb-1">
+                      ست کیف پینترستی روزمره
+                    </h4>
+
+                    <span class="text-sm">
+                      کد محصول: M-102
+                    </span>
+
+                  </div>
+
+                </div>
+
+
+                <!-- Price -->
+                <div class="md:col-span-2 text-center">
+
+                  <span class="md:hidden block text-sm mb-1">
+                    قیمت:
+                  </span>
+
+                  <span class="product-price">
+                    ۲,۴۹۰,۰۰۰
+                  </span>
+
+                  <span class="text-sm">
+                    تومان
+                  </span>
+
+                </div>
+
+
+                <!-- Quantity -->
+                <div class="md:col-span-3">
+
+                  <div class="flex justify-center">
+
+                    <div class="flex items-center border border-[#D9D9D9] bg-white rounded-md overflow-hidden">
+
+                      <button
+                        type="button"
+                        class="quantity-minus w-10 h-10 flex items-center justify-center text-xl text-black hover:bg-primary hover:text-white transition"
+                      >
+                        −
+                      </button>
+
+                      <span
+                        class="quantity w-12 h-10 flex items-center justify-center border-x border-[#D9D9D9] text-black"
+                      >
+                        1
+                      </span>
+
+                      <button
+                        type="button"
+                        class="quantity-plus w-10 h-10 flex items-center justify-center text-xl text-black hover:bg-primary hover:text-white transition"
+                      >
+                        +
+                      </button>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                <!-- Total -->
+                <div class="md:col-span-2 text-center">
+
+                  <span class="md:hidden block text-sm mb-1">
+                    جمع:
+                  </span>
+
+                  <span class="item-total font-semibold text-black">
+                    ۲,۴۹۰,۰۰۰
+                  </span>
+
+                  <span class="text-sm">
+                    تومان
+                  </span>
+
+                </div>
+
+              </div>
+
+
+              <!-- ==================== Cart Actions ==================== -->
+              <div class="flex flex-wrap justify-between items-center gap-4 pt-6">
+
+                <a
+                  href="products.html"
+                  class="btn btn-outline-primary"
+                >
+                  ادامه خرید
+                </a>
+
+                <button
+                  type="button"
+                  id="clear-cart"
+                  class="text-primary hover:text-secondary transition"
+                >
+                  پاک کردن سبد خرید
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- ==================== Order Summary ==================== -->
+          <div class="lg:col-span-4">
+
+            <div class="bg-[#F8F8F8] rounded-md p-6 md:p-8 lg:sticky lg:top-24">
+
+              <h3 class="text-2xl font-semibold text-black mb-6">
+                خلاصه سفارش
+              </h3>
+
+
+              <!-- Subtotal -->
+              <div class="flex justify-between items-center pb-4 mb-4 border-b border-[#E5E5E5]">
+
+                <span>
+                  جمع محصولات
+                </span>
+
+                <span class="subtotal font-semibold text-black">
+                  ۴,۳۴۰,۰۰۰ تومان
+                </span>
+
+              </div>
+
+
+              <!-- Shipping -->
+              <div class="flex justify-between items-center pb-4 mb-4 border-b border-[#E5E5E5]">
+
+                <span>
+                  هزینه ارسال
+                </span>
+
+                <span class="shipping font-semibold text-black">
+                  ۰ تومان
+                </span>
+
+              </div>
+
+
+              <!-- Discount -->
+              <div class="flex justify-between items-center pb-4 mb-4 border-b border-[#E5E5E5]">
+
+                <span>
+                  تخفیف
+                </span>
+
+                <span class="discount font-semibold text-primary">
+                  ۰ تومان
+                </span>
+
+              </div>
+
+
+              <!-- Total -->
+              <div class="flex justify-between items-center mb-8">
+
+                <span class="text-xl font-semibold text-black">
+                  مبلغ نهایی
+                </span>
+
+                <span class="grand-total text-xl font-bold text-primary">
+                  ۴,۳۴۰,۰۰۰ تومان
+                </span>
+
+              </div>
+
+
+              <!-- Checkout -->
+              <button
+                type="button"
+                id="checkout-button"
+                class="btn btn-primary w-full text-center"
+              >
+                ادامه فرایند خرید
+              </button>
+
+
+              <p class="text-sm text-center mt-4">
+                هزینه ارسال در مرحله نهایی سفارش محاسبه می‌شود.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==================== Footer ==================== -->
+    <footer class="bg-dark-pink bg-cover bg-center bg-no-repeat">
+      <div class="section-padding container text-white">
+        <div class="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
+          <div class="single-footer">
+            <div class="lg:max-w-[270px]">
+              <a href="#" class="mb-10 block">
+                <img src="assets/images/logo/text.svg" alt="لوگوی الیف بگ" class="w-[170px] h-auto"/>
+              </a>
+              <p>برای سفارش این وب‌سایت و یا طراحی یک وب‌سایت اختصاصی و متناسب با نیاز خودتان، با ما تماس بگیرید.</p>
+              <ul class="flex space-x-4 pt-8">
+                <li>
+                  <a href="#" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="bxl:linkedin"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://t.me/ElifAlgo" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-brands:telegram"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:09331535511" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-solid:phone"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:MHoseini.Developer@gmail.com" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-solid:envelope"></iconify-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="single-footer">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+              <div class="flex-1 lg:flex-none md:ml-[80px]">
+                <h4 class="mb-8 text-2xl font-bold text-white">دسترسی سریع</h4>
+                <ul class="list-item space-y-5">
+                  <li><a href="index.html">صفحه اصلی</a></li>
+                  <li><a href="products.html">محصولات</a></li>
+                  <li><a href="blog.html">ایده‌ها</a></li>
+                  <li><a href="cart.html">سبدخرید</a></li>
+                  <li><a href="about.html">درباره‌ما</a></li>
+                </ul>
+              </div>
+              <div class="flex-1 lg:flex-none">
+                <h4 class="mb-8 text-2xl font-bold text-white">اطلاعات تماس</h4>
+                <ul class="list-item space-y-5">
+                  <li>
+                    <a href="https://eitaa.com/ElifLife" target="_blank">آیدی ایتا: 
+                      <br>
+                      @ElifLife</a>
+                  </li>
+                  <li>
+                    <a>کانال ایتا:</a> <br>
+                    <a href="https://eitaa.com/ElifLife" target="_blank">@ElifLife</a>
+                  </li>
+                  <li>
+                    طراحی‌اختصاصی‌وب‌سایت: 
+                    <br>
+                    <a href="https://eitaa.com/ElifLife" target="_blank">@ElifLife</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>          
+          <div class="single-footer">
+            <h4 class="mb-8 text-2xl font-bold text-white">خبرنامه</h4>
+            <div class="mb-8">
+              برای دریافت آخرین محصولات، تخفیف‌ها و تازه‌های الیف بگ،
+              <span class="text-primary underline">ایمیل</span>
+              خود را وارد کنید.
+            </div>
+            <div class="mb-4 flex items-center rounded-md bg-white py-[10px] pl-[10px] pl-6 shadow-e1 fd">
+              <div class="flex-1">
+                <input type="text" placeholder="ایمیل خود را وارد کنید ..." class="border-none focus:ring-0" />
+              </div>
+              <div class="flex-none">
+                <span><img src="assets/images/icon/mail.svg" alt="ایمیل" /></span>
+              </div>
+            </div>
+            <button class="btn btn-primary block w-full text-center">اشتراک</button>
+          </div>
+        </div>
+      </div>
+      <div class="container border-t border-white border-opacity-[0.1] py-8 text-center text-base">
+        &copy; تمامی حقوق محفوظ است ۱۴۰۴ | الیف بگ
+      </div>
+    </footer>
+
+
+    <!-- ==================== Scripts ==================== -->
+
+    <div class="rt-mobile-menu-overlay"></div>
+
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/rt-plugins.js"></script>
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+
+    <!-- ==================== Cart JavaScript ==================== -->
+    <script>
+
+      document.addEventListener("DOMContentLoaded", function () {
+
+        const cartItems = document.querySelectorAll(".cart-item");
+        const subtotalElement = document.querySelector(".subtotal");
+        const grandTotalElement = document.querySelector(".grand-total");
+        const clearCartButton = document.getElementById("clear-cart");
+        const checkoutButton = document.getElementById("checkout-button");
+
+
+        // تبدیل عدد به فرمت فارسی
+        function formatPrice(number) {
+          return new Intl.NumberFormat("fa-IR").format(number);
+        }
+
+
+        // محاسبه مجموع سبد
+        function updateCart() {
+
+          let subtotal = 0;
+
+          document.querySelectorAll(".cart-item").forEach(function (item) {
+
+            const price = Number(item.dataset.price);
+
+            const quantityElement = item.querySelector(".quantity");
+
+            const quantity = Number(
+              quantityElement.textContent.trim().replace(/[۰-۹]/g, function (digit) {
+                return "۰۱۲۳۴۵۶۷۸۹".indexOf(digit);
+              })
+            );
+
+            const itemTotal = price * quantity;
+
+            const itemTotalElement = item.querySelector(".item-total");
+
+            itemTotalElement.textContent = formatPrice(itemTotal);
+
+            subtotal += itemTotal;
+
+          });
+
+
+          subtotalElement.textContent =
+            formatPrice(subtotal) + " تومان";
+
+          grandTotalElement.textContent =
+            formatPrice(subtotal) + " تومان";
+
+        }
+
+
+        // تبدیل عدد فارسی به انگلیسی
+        function persianToEnglishNumber(value) {
+
+          return value.replace(/[۰-۹]/g, function (digit) {
+
+            return "۰۱۲۳۴۵۶۷۸۹".indexOf(digit);
+
+          });
+
+        }
+
+
+        // دکمه افزایش و کاهش تعداد
+        document.querySelectorAll(".cart-item").forEach(function (item) {
+
+          const plusButton =
+            item.querySelector(".quantity-plus");
+
+          const minusButton =
+            item.querySelector(".quantity-minus");
+
+          const quantityElement =
+            item.querySelector(".quantity");
+
+
+          plusButton.addEventListener("click", function () {
+
+            let quantity =
+              Number(
+                persianToEnglishNumber(
+                  quantityElement.textContent.trim()
+                )
+              );
+
+            quantity++;
+
+            quantityElement.textContent =
+              formatPrice(quantity);
+
+            updateCart();
+
+          });
+
+
+          minusButton.addEventListener("click", function () {
+
+            let quantity =
+              Number(
+                persianToEnglishNumber(
+                  quantityElement.textContent.trim()
+                )
+              );
+
+            if (quantity > 1) {
+
+              quantity--;
+
+              quantityElement.textContent =
+                formatPrice(quantity);
+
+              updateCart();
+
+            }
+
+          });
+
+        });
+
+
+        // پاک کردن سبد
+        clearCartButton.addEventListener("click", function () {
+
+          document.querySelectorAll(".cart-item").forEach(function (item) {
+
+            item.style.display = "none";
+
+          });
+
+
+          subtotalElement.textContent =
+            "۰ تومان";
+
+          grandTotalElement.textContent =
+            "۰ تومان";
+
+        });
+
+
+        // دکمه پرداخت فعلاً نمایشی
+        checkoutButton.addEventListener("click", function () {
+
+          alert("این بخش فعلاً نمایشی است و در نسخه اصلی به صفحه پرداخت متصل خواهد شد.");
+
+        });
+
+
+        // اجرای اولیه
+        updateCart();
+
+      });
+
+    </script>
+
+  </body>
+</html>
