@@ -33,7 +33,7 @@ A modern frontend website for a handmade bags store, designed to showcase handcr
 
 ## Project Preview
 
-Add screenshots of the website here.
+![Homepage Preview](screenshots/homepage.png)
 
 ## Author
 
