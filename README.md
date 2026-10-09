@@ -79,7 +79,7 @@ cd handmade-bags-frontend
 
 ## پیش‌نمایش پروژه
 
-تصاویر صفحات مختلف وب‌سایت را در این بخش قرار دهید.
+![Homepage Preview](screenshots/homepage2.png)
 
 ## توسعه‌دهنده
 
